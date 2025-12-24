@@ -1,0 +1,3 @@
+CREATE DATABASE booking_db;
+CREATE DATABASE guest_db;
+CREATE DATABASE room_db;
