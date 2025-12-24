@@ -1,0 +1,48 @@
+Starting Guest Service on :8001...
+Starting Room Service on :8002...
+Starting Booking Service on :8003...
+Services started. PIDs: 18756, 18757, 18758
+Press Ctrl+C to stop all services.
+INFO:     Will watch for changes in these directories: ['/Users/iljuha.alikingmail.com/Code/python/Hotel-Booking-System/services/booking_service']
+INFO:     Will watch for changes in these directories: ['/Users/iljuha.alikingmail.com/Code/python/Hotel-Booking-System/services/guest_service']
+INFO:     Will watch for changes in these directories: ['/Users/iljuha.alikingmail.com/Code/python/Hotel-Booking-System/services/room_service']
+INFO:     Uvicorn running on http://127.0.0.1:8003 (Press CTRL+C to quit)
+INFO:     Uvicorn running on http://127.0.0.1:8002 (Press CTRL+C to quit)
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [18761] using StatReload
+INFO:     Started reloader process [18760] using StatReload
+INFO:     Started reloader process [18759] using StatReload
+INFO:     Started server process [18766]
+INFO:     Waiting for application startup.
+INFO:     Started server process [18765]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+INFO:     Started server process [18767]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:56526 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56528 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56530 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56532 - "POST /rooms/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56536 - "GET /rooms/101 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56538 - "GET /guests/AB123456 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56540 - "POST /guests/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56534 - "POST /bookings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56542 - "GET /guests/AB123456 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56544 - "POST /bookings/1/activate HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18766]
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18765]
+INFO:     Stopping reloader process [18759]
+INFO:     Stopping reloader process [18760]
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18767]
+INFO:     Stopping reloader process [18761]
